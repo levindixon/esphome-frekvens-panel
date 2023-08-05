@@ -37,6 +37,10 @@ class Panel : public PollingComponent,
   void setup() override {
     this->initialize();
   }
+  
+  display::DisplayType get_display_type() override {
+    return display::DisplayType::DISPLAY_TYPE_BINARY;
+  }
 
  protected:
   void draw_absolute_pixel_internal(int x, int y, Color color) override;
