@@ -14,8 +14,8 @@ CONF_LATCH_PIN = 'latch_pin'
 CONF_CLOCK_PIN = 'clock_pin'
 CONF_DATA_PIN = 'data_pin'
 
-frekvenspanel_ns = cg.esphome_ns.namespace("frekvenspanel")
-Panel = frekvenspanel_ns.class_(
+obegransadpanel_ns = cg.esphome_ns.namespace("obegransadpanel")
+Panel = obegransadpanel_ns.class_(
     "Panel", cg.PollingComponent, display.DisplayBuffer
 )
 
