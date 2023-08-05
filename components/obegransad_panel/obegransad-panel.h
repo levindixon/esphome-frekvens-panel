@@ -3,7 +3,7 @@
 #include "esphome/core/component.h"
 #include "esphome/components/display/display_buffer.h"
 
-#include "obegransad-panel.h"
+#include "obegransad-driver.h"
 
 
 namespace esphome {
