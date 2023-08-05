@@ -1,7 +1,7 @@
 // By /u/frumperino
 // goodwires.org
 
-#include "obegransad-drive.h"
+#include "obegransad-driver.h"
 
 void init(int p_latch, int p_clock, int p_data, int p_enable);
 
